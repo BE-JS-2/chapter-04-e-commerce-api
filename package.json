@@ -1,0 +1,30 @@
+{
+    "name": "chapter-04-e-commerce-api",
+    "version": "1.0.0",
+    "description": "- Memahami cara menggunakan express untuk membuat API\r - Memahami cara kerja middleware\r - Memahami menggunakan sequelize untuk berinteraksi dengan database",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BE-JS-2/chapter-04-e-commerce-api.git"
+    },
+    "keywords": [],
+    "author": "Andri Wifaldy Hasibuan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BE-JS-2/chapter-04-e-commerce-api/issues"
+    },
+    "homepage": "https://github.com/BE-JS-2/chapter-04-e-commerce-api#readme",
+    "dependencies": {
+        "express": "^4.17.3",
+        "pg": "^8.7.3",
+        "sequelize": "^6.18.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "sequelize-cli": "^6.4.1"
+    }
+}
