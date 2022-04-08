@@ -26,12 +26,4 @@ const registerUser = async (req, res, next) => {
   }
 };
 
-const isDuplicateUsername = async (usernameParams) => {
-  const count = await User.findOne({ where: { username: usernameParams } });
-  if (count != null) {
-    return true;
-  }
-  return false;
-};
-
-module.exports = { registerUser, isDuplicateUsername };
+module.exports = { registerUser };
