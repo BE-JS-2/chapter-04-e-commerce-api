@@ -1,0 +1,22 @@
+[
+  {
+    "name": "NutriMart",
+    "email": "nutrimart@gmail.com",
+    "password": "Qweqwe123$$"
+  },
+  {
+    "name": "EcMart",
+    "email": "ecmart@gmail.com",
+    "password": "Qweqwe123$$"
+  },
+  {
+    "name": "FoodMart",
+    "email": "foodmart@gmail.com",
+    "password": "Qweqwe123$$"
+  },
+  {
+    "name": "FashMart",
+    "email": "fashmart@gmail.com",
+    "password": "Qweqwe123$$"
+  }
+]

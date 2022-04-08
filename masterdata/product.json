@@ -1,0 +1,86 @@
+[
+  {
+    "categoryId": 2,
+    "sellerId": 1,
+    "name": "Teh Botol 100 mL",
+    "price": 5000,
+    "stock": 10
+  },
+  {
+    "categoryId": 3,
+    "sellerId": 2,
+    "name": "Type C Jack Audio",
+    "price": 100000,
+    "stock": 10
+  },
+  {
+    "categoryId": 2,
+    "sellerId": 3,
+    "name": "Coca Cola 300 ml",
+    "price": 7000,
+    "stock": 10
+  },
+  {
+    "categoryId": 3,
+    "sellerId": 2,
+    "name": "FITBIT Charge 5",
+    "price": 500000,
+    "stock": 10
+  },
+  {
+    "categoryId": 1,
+    "sellerId": 4,
+    "name": "Baju Kaos Hitam Lengan Pendek",
+    "price": 30000,
+    "stock": 10
+  },
+  {
+    "categoryId": 2,
+    "sellerId": 3,
+    "name": "Fanta 400 mL",
+    "price": 3000,
+    "stock": 10
+  },
+  {
+    "categoryId": 2,
+    "sellerId": 1,
+    "name": "Choco Chip Sereal Simba",
+    "price": 10000,
+    "stock": 10
+  },
+  {
+    "categoryId": 2,
+    "sellerId": 3,
+    "name": "Kurma Sukari 1 kg Premium",
+    "price": 50000,
+    "stock": 10
+  },
+  {
+    "categoryId": 3,
+    "sellerId": 2,
+    "name": "Inone Powerbank Z14",
+    "price": 1000000,
+    "stock": 10
+  },
+  {
+    "categoryId": 2,
+    "sellerId": 1,
+    "name": "Teh Pucuk Harum",
+    "price": 4000,
+    "stock": 10
+  },
+  {
+    "categoryId": 3,
+    "sellerId": 2,
+    "name": "Charger Aukey",
+    "price": 300000,
+    "stock": 10
+  },
+  {
+    "categoryId": 3,
+    "sellerId": 2,
+    "name": "Apple Airpods",
+    "price": 1000000,
+    "stock": 10
+  }
+]
