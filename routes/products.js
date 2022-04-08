@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { body } = require('express-validator');
 
 const Products = require("../controllers/Products");
+const isAuth = require("../middlewares/isAuth");
 
 router.get("/products", Products.getProducts);
 
@@ -18,11 +19,13 @@ router.post("/product", [
 router.put("/product/:id", [
     body("name").trim().not().isEmpty().withMessage("Name is required"),
     body("price").trim().not().isEmpty().withMessage("Price is required"),
-    body("stock").trim().not().isEmpty().withMessage("Stock is required"),
-    body("categoryId").trim().not().isEmpty().withMessage("Category is required"),
-    body("sellerId").trim().not().isEmpty().withMessage("Seller is required")
+    body("stock").trim().not().isEmpty().withMessage("Stock is required")
 ], Products.putProduct);
 
 router.delete("/product/:id", Products.deleteProduct);
+
+router.post("/order", isAuth, Products.postOrder);
+
+router.get("/order", isAuth, Products.getOrders);
 
 module.exports = router;
