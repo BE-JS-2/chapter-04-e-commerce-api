@@ -41,4 +41,4 @@ class Api422Error extends BaseError {
   }
 }
 
-module.exports = { Api404Error, Api401Error, Api400Error, Api403Error, Api422Error, Api500Error };
+module.exports = { Api404Error, Api401Error, Api400Error, Api422Error };
