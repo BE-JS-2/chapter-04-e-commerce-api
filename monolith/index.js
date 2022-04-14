@@ -7,6 +7,8 @@ const UserController = require('./controllers/user.controller.js');
 const errorHandler = require('./errorHandler');
 const { body, validationResult } = require('express-validator');
 const { Category } = require('./models');
+const swaggerJSON = require('./swagger_output.json')
+const swaggerUI = require('swagger-ui-express')
 
 
 app.use(express.urlencoded({extended: false}))
@@ -162,6 +164,8 @@ app.get('/order',
 UserController.getOrder)
 
 app.use(errorHandler)
+
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerJSON));
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
